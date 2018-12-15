@@ -109,7 +109,6 @@ section { display: flex; }
 .hero h1, .hero h2{
     font-weight: 700;
     font-size: 63px;
-    font-weight: 760;
     line-height: 0.9;
 }
 .hero p{
