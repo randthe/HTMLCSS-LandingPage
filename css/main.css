@@ -96,9 +96,8 @@ section { display: flex; }
     background-image: url("../img/hero.jpg");
     background-size: cover;
     height:400px;
-    background-position: center;
+    background-position: center center;
     text-transform: uppercase;
-
 }
 .hero h1 {
     position: relative;
@@ -106,6 +105,8 @@ section { display: flex; }
 }
 .hero h2{
     color: #faa541;
+}
+.hero h1, .hero h2{
     font-size: 63px;
     font-weight: 760;
     line-height: 0.9;
@@ -114,12 +115,13 @@ section { display: flex; }
     letter-spacing: 2px;
     font-weight: 700;
     font-size: 21px;
-    margin: 0,0,10px;
+    margin: 0 0 10px;
 }
 .banner{
-    margin:55px, 15px;
+    margin: 55px 15px;
     width: 100%;
     border-top:1px solid #a0a0a0;
+    border-bottom: 1px solid #a0a0a0;
     padding: 25px 0;
 }
 .banner img{
