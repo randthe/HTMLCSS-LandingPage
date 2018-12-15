@@ -101,7 +101,7 @@ section { display: flex; }
 }
 .hero h1 {
     position: relative;
-    left: -300px;
+    left: -30px;
 }
 .hero h2{
     color: #faa541;
