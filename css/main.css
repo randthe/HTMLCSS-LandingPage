@@ -93,7 +93,7 @@ section { display: flex; }
 .profile-pic img { border-radius: 100px; max-width: 100%;}
 
 .hero {
-    background-image: url("../img/hero.jpg");
+    background-image: url('../img/hero.jpg');
     background-size: cover;
     height:400px;
     background-position: center center;
@@ -107,6 +107,7 @@ section { display: flex; }
     color: #faa541;
 }
 .hero h1, .hero h2{
+    font-weight: 700;
     font-size: 63px;
     font-weight: 760;
     line-height: 0.9;
