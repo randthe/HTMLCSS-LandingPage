@@ -167,7 +167,7 @@ section { display: flex; }
     margin: 50px 0;
     position: relative;
 }
-.full-banner::before{
+.full-banner:before{
     content:"";
     position: absolute;
     border: 1px solid #fff;
@@ -198,7 +198,7 @@ section { display: flex; }
     color: #637f94;
     line-height: 1;
 }
-.full-banner-sidebar h4::after{
+.full-banner-sidebar h4:after{
     content: "";
     width: 100px;
     height: 1px;
@@ -219,7 +219,7 @@ section { display: flex; }
 .full-banner-sidebar .btn.btn-default{
     margin-top: 50px;
     text-transform: uppercase;
-    letter-spacing: 1;
+    letter-spacing: 1px;
     z-index: 1;
 }
 
