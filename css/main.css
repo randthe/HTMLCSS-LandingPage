@@ -223,6 +223,7 @@ section { display: flex; }
     z-index: 1;
 }
 footer{
+    display: flex;
     flex-wrap: wrap;
     position: relative;
     z-index: 0;
@@ -270,7 +271,7 @@ footer a:hover{
     background-position: center;
 }
 .twitter{ background-image: url('../img/twitter.svg')}
-.faceboock{ background-image: url('../img/facebook.svg')}
+.facebook{ background-image: url('../img/facebook.svg')}
 .instagram{ background-image: url('../img/instagram.svg')}
 .pintrest{ background-image: url('../img/pinterest.svg')}
 .newsletter .link-header{
